@@ -1,0 +1,26 @@
+{
+  "name": "smartthings-twitter-demo",
+  "version": "0.0.0",
+  "description": "Watch keywords on twitter and send tweet body to smartthings api",
+  "main": "src/index.coffee",
+  "scripts": {
+    "start": "npm install; node ./node_modules/gulp/bin/gulp.js start"
+  },
+  "author": {
+    "name": "case sandberg",
+    "email": "case@casesandberg.com"
+  },
+  "repository": "https://github.com/casesandberg/smartthings-twitter-demo",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "coffee-script": "^1.9.2",
+    "node-tweet-stream": "^1.8.1",
+    "request": "^2.55.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "nodemon": "^1.3.7"
+  },
+  "license": "MIT"
+}
